@@ -31,6 +31,7 @@ GPIO.setup(sensor_pin,GPIO.IN) # board pin 13
 # 		print("Not touched")
 
 a = app(GPIO, sensor_pin)
+time.sleep(5)
 GPIO.cleanup()
 
 # window.mainloop()
